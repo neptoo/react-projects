@@ -76,4 +76,4 @@ useEffect(() => {
 
 ## 最终效果
 
-![预览](/preview.png)
+![预览](preview.png)
