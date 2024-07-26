@@ -3,13 +3,16 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.index1-bg {
   background: var(--clr-pink);
 }
 
 .container {
   width: 80vw;
   margin: 5rem 0;
-  max-width: var(--fixed-width-1);
+  max-width: var(--fixed-width);
   background: var(--clr-white);
   border-radius: var(--radius);
   padding: 1.5rem 2rem;

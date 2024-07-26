@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./app.module.css";
 
 function App() {
@@ -16,6 +16,9 @@ function App() {
         </p>
         <p>
           <a href={`/02`}>02</a>
+        </p>
+        <p>
+          <a href={`/03`}>03</a>
         </p>
       </div>
     </div>

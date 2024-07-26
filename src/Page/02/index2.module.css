@@ -18,7 +18,7 @@
   */
 .main {
   width: 90vw;
-  max-width: var(--fixed-width);
+  max-width: var(--fixed-width-2);
   margin: 5rem auto;
 }
 .loading {

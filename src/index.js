@@ -8,6 +8,7 @@ import "./index.css";
 import App from "./App";
 import BirthdayReminder from "./Page/BirthdayReminder";
 import TourList from "./Page/TourList";
+import RandomReviews from "./Page/RandomReviews";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "02",
     element: <TourList />,
+  },
+  {
+    path: "03",
+    element: <RandomReviews />,
   },
 ]);
 

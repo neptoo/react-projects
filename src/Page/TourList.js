@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./02/Loading";
 import Tours from "./02/Tours";
+import "../index.css";
 import styles from "./02/index2.module.css";
 
 // 服务器不允许跨域 修改在线服务器为本地服务
