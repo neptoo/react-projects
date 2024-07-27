@@ -1,13 +1,14 @@
-main {
+.main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.index1-bg {
   background: var(--clr-pink);
 }
+
+/* .index1-bg {
+  background: var(--clr-pink);
+} */
 
 .container {
   width: 80vw;

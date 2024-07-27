@@ -5,7 +5,7 @@ import styles from "./03/index3.module.css";
 
 const RandomReviews = () => {
   return (
-    <main>
+    <main className={styles.main}>
       <section className={styles.container}>
         <div className={styles.title}>
           <h2>Our Reviews</h2>

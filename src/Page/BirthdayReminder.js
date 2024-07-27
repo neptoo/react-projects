@@ -6,7 +6,7 @@ import styles from "./01/index1.module.css";
 const BirthdayReminder = () => {
   const [people, setPeople] = useState(data);
   return (
-    <main className="index1-bg">
+    <main className={styles.main}>
       <section className={styles.container}>
         <h3>{people.length} birthday today</h3>
         <List people={people} styles={styles} />

@@ -33,10 +33,54 @@
   text-align: center;
 }
 
-.center > * {
-  width: 200px;
+.container {
+  width: 90vw;
   margin: 0 auto;
-  border: 1px solid coral;
-  margin-bottom: 5px;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem 2rem;
+}
+
+.singleProject {
+  max-width: 25rem;
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  margin: 1rem 0;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+
+.singleProject:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+.img {
+  width: 100%;
+  display: block;
+  line-height: 0;
+  height: 15rem;
+  object-fit: cover;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+
+.singleProject footer {
+  padding: 1.5rem 2rem;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.tourInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  display: block;
+  margin: 0 auto;
+  letter-spacing: var(--spacing);
   text-align: center;
+  font-size: 1.2rem;
 }
