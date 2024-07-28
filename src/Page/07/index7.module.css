@@ -35,7 +35,7 @@ Slider
   margin-right: 1rem;
   font-weight: 700;
 }
-.section-center {
+.sectionCenter {
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
@@ -45,9 +45,9 @@ Slider
   text-align: center;
   position: relative;
   display: flex;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
-.person-img {
+.personImg {
   border-radius: 50%;
   margin-bottom: 1rem;
   width: 150px;
@@ -122,6 +122,16 @@ Slider
   left: 0;
   width: 100%;
   height: 100%;
-  /* opacity: 0; */
+  opacity: 0;
   transition: var(--transition);
+}
+.article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+.article.lastSlide {
+  transform: translateX(-100%);
+}
+.article.nextSlide {
+  transform: translateX(100%);
 }
