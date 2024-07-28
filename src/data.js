@@ -35,4 +35,10 @@ export default [
     img: "https://s3.bmp.ovh/imgs/2024/07/27/18e21593f8b888f9.png",
     href: "/06",
   },
+  {
+    id: 7,
+    title: "07 slider",
+    img: "https://s2.loli.net/2024/07/28/I7p4mBd2RwPGcSH.png",
+    href: "/07",
+  },
 ];

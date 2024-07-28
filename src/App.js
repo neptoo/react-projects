@@ -30,27 +30,6 @@ function App() {
           })}
         </div>
       </section>
-
-      {/* <div className={styles.center}>
-        <p>
-          <a href={`/01`}>01</a>
-        </p>
-        <p>
-          <a href={`/02`}>02</a>
-        </p>
-        <p>
-          <a href={`/03`}>03</a>
-        </p>
-        <p>
-          <a href={`/04`}>04</a>
-        </p>
-        <p>
-          <a href={`/05`}>05</a>
-        </p>
-        <p>
-          <a href={`/06`}>06</a>
-        </p>
-      </div> */}
     </div>
   );
 }
