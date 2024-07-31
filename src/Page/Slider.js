@@ -9,7 +9,7 @@ import styles from "./07/index7.module.css";
 const Slider = () => {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
-  // ?
+  // 确保轮播图继续循环 当超过边界时
   useEffect(() => {
     const lastIndex = people.length - 1;
     if (index < 0) {
@@ -19,12 +19,12 @@ const Slider = () => {
       setIndex(0);
     }
   }, [index, people]);
-  // autoSlide
+  // autoSlide 自动轮播
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
     }, 3000);
-    // ?
+    // index改变时要清除定时器
     return () => clearInterval(slider);
   }, [index]);
   return (
@@ -38,7 +38,10 @@ const Slider = () => {
         <div className={styles.sectionCenter}>
           {people.map((person, personIndex) => {
             const { id, image, name, title, quote } = person;
-            let position = "nextSlide";
+            let position = "nextSlide"; // 默认所有轮播图叠加在右边
+            // 根据当前索引去定位左边和中间active的 轮播图
+            // index: current active slide
+            // personIndex: 遍历people数组，和index相比较，确定 activeSlide, lastSlide, nextSlide 位置
             if (personIndex === index) {
               position = "activeSlide";
             }

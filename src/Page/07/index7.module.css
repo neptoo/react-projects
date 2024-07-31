@@ -45,6 +45,7 @@ Slider
   text-align: center;
   position: relative;
   display: flex;
+  /* hiding overflow content */
   overflow: hidden;
 }
 .personImg {
@@ -122,6 +123,7 @@ Slider
   left: 0;
   width: 100%;
   height: 100%;
+  /* Each slide, hidden by default */
   opacity: 0;
   transition: var(--transition);
 }
@@ -129,9 +131,11 @@ Slider
   opacity: 1;
   transform: translateX(0);
 }
+/* Styles for the previous slide, positioning it to the left */
 .article.lastSlide {
   transform: translateX(-100%);
 }
 .article.nextSlide {
+  /* Move slide out of view to the right */
   transform: translateX(100%);
 }
