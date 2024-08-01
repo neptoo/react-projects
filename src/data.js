@@ -41,4 +41,10 @@ export default [
     img: "https://s2.loli.net/2024/07/28/I7p4mBd2RwPGcSH.png",
     href: "/07",
   },
+  {
+    id: 8,
+    title: "08 lorem lpsum",
+    img: "https://s2.loli.net/2024/08/01/DlJkPEArBxMc1jH.png",
+    href: "/08",
+  },
 ];

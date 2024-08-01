@@ -13,6 +13,7 @@ import Accordion from "./Page/Accordion";
 import MenuCard from "./Page/MenuCard";
 import Tabs from "./Page/Tabs";
 import Slider from "./Page/Slider";
+import LoremLpsum from "./Page/LoremLpsum";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path: "07",
     element: <Slider />,
+  },
+  {
+    path: "08",
+    element: <LoremLpsum />,
   },
 ]);
 

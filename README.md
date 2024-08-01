@@ -4,7 +4,7 @@
 
 1.Birthday Reminder 今天有多少人生日
 
- [灵感来源](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
+[灵感来源](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
 
 2.Tours List 旅游新闻列表
 
@@ -12,7 +12,7 @@
 
 4.Accordion 折叠手风琴效果
 
- [灵感来源](https://uidesigndaily.com/posts/sketch-accordion-website-day-1175)
+[灵感来源](https://uidesigndaily.com/posts/sketch-accordion-website-day-1175)
 
 5.Menu 分类列表
 
@@ -20,7 +20,7 @@
 
 7.Reviews Carousel 轮播图
 
-
+8.Lorem Lpsum 占位符文本生成器
 
 bugfix: 修复了 api 不可用的报错
 
