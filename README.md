@@ -22,6 +22,8 @@
 
 8.Lorem Lpsum 占位符文本生成器
 
+9.Color Generator 输入颜色生成同色系颜色
+
 bugfix: 修复了 api 不可用的报错
 
 Fix CORS permissions to allow the projects to work from new domain

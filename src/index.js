@@ -14,6 +14,7 @@ import MenuCard from "./Page/MenuCard";
 import Tabs from "./Page/Tabs";
 import Slider from "./Page/Slider";
 import LoremLpsum from "./Page/LoremLpsum";
+import ColorGenerator from "./Page/ColorGenerator";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: "08",
     element: <LoremLpsum />,
+  },
+  {
+    path: "09",
+    element: <ColorGenerator />,
   },
 ]);
 

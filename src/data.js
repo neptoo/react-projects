@@ -47,4 +47,10 @@ export default [
     img: "https://s2.loli.net/2024/08/01/DlJkPEArBxMc1jH.png",
     href: "/08",
   },
+  {
+    id: 9,
+    title: "09 color generator",
+    img: "https://s2.loli.net/2024/08/02/vTrkR4ExCe9Ztsb.png",
+    href: "/09",
+  },
 ];
