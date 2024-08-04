@@ -128,4 +128,7 @@ p {
     line-height: 1;
   }
 }
+input:focus {
+  outline: none;
+}
 /*  global classes */

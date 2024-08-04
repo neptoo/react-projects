@@ -14,6 +14,7 @@ const ColorGenerator = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
+      setError(false);
       let colors = new Values(color).all(10);
       // console.log(colors);
       setList(colors);
@@ -32,7 +33,7 @@ const ColorGenerator = () => {
             value={color}
             onChange={(e) => setColor(e.target.value)}
             placeholder="#f15025"
-            className={`${error ? styles.error : null}`}
+            className={`${styles.input} ${error ? styles.error : ""}`}
           />
           <button className={styles.btn} type="submit">
             submit
