@@ -5,9 +5,18 @@ import Alert from "./10/Alert";
 import "../index.css";
 import styles from "./10/index10.module.css";
 
+const getLocalStorage = () => {
+  let list = localStorage.getItem("list");
+  if (list) {
+    return JSON.parse(list);
+  } else {
+    return [];
+  }
+};
+
 const GroceryOrganizer = () => {
   const [name, setName] = useState("");
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(getLocalStorage());
   const [isEditing, setIsEditing] = useState(false);
   const [editID, setEditID] = useState(null);
   const [alert, setAlert] = useState({ show: false, msg: "", type: "" });
@@ -55,6 +64,11 @@ const GroceryOrganizer = () => {
     setEditID(id);
     setName(specificItem.title);
   };
+  // localStorage
+  useEffect(() => {
+    // localStorage 中 key value都是字符串
+    localStorage.setItem("list", JSON.stringify(list));
+  }, [list]);
   return (
     <section className={styles["section-center"]}>
       <form className={styles["grocery-form"]} onSubmit={handleSubmit}>
