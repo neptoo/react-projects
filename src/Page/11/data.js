@@ -22,11 +22,11 @@ export const links = [
     url: "/contact",
     text: "contact",
   },
-  {
-    id: 5,
-    url: "/profile",
-    text: "profile",
-  },
+  // {
+  //   id: 5,
+  //   url: "/profile",
+  //   text: "profile",
+  // },
 ];
 
 export const social = [

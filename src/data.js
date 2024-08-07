@@ -62,7 +62,7 @@ export default [
   {
     id: 11,
     title: "11 navbar",
-    img: "https://s2.loli.net/2024/08/06/R9EqleCYNKG1nLo.png",
+    img: "https://s2.loli.net/2024/08/07/Uwi3vXQ9cxjZRoF.png",
     href: "/11",
   },
 ];
