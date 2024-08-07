@@ -16,6 +16,7 @@ import Slider from "./Page/Slider";
 import LoremLpsum from "./Page/LoremLpsum";
 import ColorGenerator from "./Page/ColorGenerator";
 import GroceryOrganizer from "./Page/GroceryOrganizer";
+import NavBar from "./Page/NavBar";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
   {
     path: "10",
     element: <GroceryOrganizer />,
+  },
+  {
+    path: "11",
+    element: <NavBar />,
   },
 ]);
 

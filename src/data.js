@@ -59,4 +59,10 @@ export default [
     img: "https://s2.loli.net/2024/08/06/R9EqleCYNKG1nLo.png",
     href: "/10",
   },
+  {
+    id: 11,
+    title: "11 navbar",
+    img: "https://s2.loli.net/2024/08/06/R9EqleCYNKG1nLo.png",
+    href: "/11",
+  },
 ];
