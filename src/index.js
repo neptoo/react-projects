@@ -5,6 +5,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
 
+import { AppProvider } from "./Page/12/context";
+
 import App from "./App";
 import BirthdayReminder from "./Page/BirthdayReminder";
 import TourList from "./Page/TourList";
@@ -17,6 +19,7 @@ import LoremLpsum from "./Page/LoremLpsum";
 import ColorGenerator from "./Page/ColorGenerator";
 import GroceryOrganizer from "./Page/GroceryOrganizer";
 import NavBar from "./Page/NavBar";
+import SidebarModal from "./Page/SidebarModal";
 
 const router = createBrowserRouter([
   {
@@ -67,11 +70,17 @@ const router = createBrowserRouter([
     path: "11",
     element: <NavBar />,
   },
+  {
+    path: "12",
+    element: <SidebarModal />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AppProvider>
+      <RouterProvider router={router} />
+    </AppProvider>
   </React.StrictMode>
 );

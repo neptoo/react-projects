@@ -65,4 +65,10 @@ export default [
     img: "https://s2.loli.net/2024/08/07/Uwi3vXQ9cxjZRoF.png",
     href: "/11",
   },
+  {
+    id: 12,
+    title: "12 sidebar modal",
+    img: "https://s2.loli.net/2024/08/08/cYs68vgX4txRCbB.png",
+    href: "/12",
+  },
 ];
