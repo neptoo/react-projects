@@ -20,6 +20,7 @@ import ColorGenerator from "./Page/ColorGenerator";
 import GroceryOrganizer from "./Page/GroceryOrganizer";
 import NavBar from "./Page/NavBar";
 import SidebarModal from "./Page/SidebarModal";
+import StripeSubmenu from "./Page/StripeSubmenu";
 
 const router = createBrowserRouter([
   {
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
   {
     path: "12",
     element: <SidebarModal />,
+  },
+  {
+    path: "13",
+    element: <StripeSubmenu />,
   },
 ]);
 
