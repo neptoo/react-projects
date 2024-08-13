@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { FaBars } from "react-icons/fa";
-import { AppContext, useGlobalContext } from "./context";
+import { AppContext, useGlobalContext } from "../../contexts";
 
 import styles from "./index12.module.css";
 

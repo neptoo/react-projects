@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import "./index.css";
 
-import { AppProvider } from "./Page/12/context";
+import { AppProvider } from "./contexts";
 
 import App from "./App";
 import BirthdayReminder from "./Page/BirthdayReminder";
@@ -74,10 +74,6 @@ const router = createBrowserRouter([
   {
     path: "12",
     element: <SidebarModal />,
-  },
-  {
-    path: "13",
-    element: <StripeSubmenu />,
   },
 ]);
 

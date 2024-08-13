@@ -71,10 +71,10 @@ export default [
     img: "https://s2.loli.net/2024/08/08/cYs68vgX4txRCbB.png",
     href: "/12",
   },
-  {
-    id: 13,
-    title: "13 stripe submenu",
-    img: "https://s2.loli.net/2024/08/08/cYs68vgX4txRCbB.png",
-    href: "/13",
-  },
+  // {
+  //   id: 13,
+  //   title: "13 stripe submenu",
+  //   img: "https://s2.loli.net/2024/08/08/cYs68vgX4txRCbB.png",
+  //   href: "/13",
+  // },
 ];

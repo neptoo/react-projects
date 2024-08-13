@@ -5,7 +5,7 @@ import { social, links } from "./data";
 
 import styles from "./index12.module.css";
 
-import { useGlobalContext } from "./context";
+import { AppContext, useGlobalContext } from "../../contexts";
 
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();

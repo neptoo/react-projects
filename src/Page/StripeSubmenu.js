@@ -5,7 +5,14 @@ import Sidebar from "./13/Sidebar";
 import Submenu from "./13/Submenu";
 
 const StripeSubmenu = () => {
-  return <div>StripeSubmenu</div>;
+  return (
+    <>
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
+    </>
+  );
 };
 
 export default StripeSubmenu;
