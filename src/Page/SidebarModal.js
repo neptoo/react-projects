@@ -4,7 +4,6 @@ import Modal from "./12/Modal";
 import Sidebar from "./12/Sidebar";
 
 import "../index.css";
-import styles from "./12/index12.module.css";
 
 const SidebarModal = () => {
   return (

@@ -24,7 +24,8 @@
 
 9.Color Generator 输入颜色生成同色系颜色
 
-bugfix: 修复了 api 不可用的报错
+- [x] bugfix: 修复了 api 不可用的报错
+
 
 Fix CORS permissions to allow the projects to work from new domain
 
@@ -40,6 +41,4 @@ index.js #导入组件，配置路由
 
 ## Links
 
-Idea : https://github.com/john-smilga/react-projects
-
-Online Course: Code 15 React Projects - Complete Course
+https://github.com/john-smilga/react-projects
