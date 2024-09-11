@@ -75,6 +75,10 @@ const router = createBrowserRouter([
     path: "12",
     element: <SidebarModal />,
   },
+  {
+    path: "13",
+    element: <StripeSubmenu />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

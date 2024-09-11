@@ -90,6 +90,8 @@ Stripe Styles
   line-height: 1.8;
 }
 .hero-images {
+  /* neptoo: add custom margin in case it hits the navbar */
+  margin-top: 4rem;
   display: none;
 }
 
@@ -222,6 +224,7 @@ Stripe Styles
   right: 1rem;
   cursor: pointer;
 }
+/* not working ? */
 .sidebar article {
   margin-bottom: 2rem;
 }

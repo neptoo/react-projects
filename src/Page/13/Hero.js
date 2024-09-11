@@ -9,10 +9,10 @@ const Hero = () => {
   // console.log(data);
 
   return (
-    <section className={[styles["hero"], styles["section"]].join(" ")}>
+    <section className={styles["hero"]} onMouseOver={closeSubmenu_13}>
       <div className={styles["hero-center"]}>
         <article className={styles["hero-info"]}>
-          <h1>Financial infrastructure to grow your revenue</h1>
+          <h1>Payments infrastructure for the Internet</h1>
           <p>
             Join the millions of companies of all sizes that use Stripe to
             accept payments online and in person, embed financial services,
@@ -21,7 +21,7 @@ const Hero = () => {
           <button className={styles["btn"]}>Start now</button>
         </article>
         <article className={styles["hero-images"]}>
-          <img src={phoneImg} alt="photo" className={styles["phone-img"]} />
+          <img src={phoneImg} alt="phone" className={styles["phone-img"]} />
         </article>
       </div>
     </section>
