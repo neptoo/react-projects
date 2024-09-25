@@ -1,7 +1,8 @@
 // en: combine context.js in project12 & project13, import as a whole in index.js
 // zh: 项目12和项目13的context集合，方便统一在index.js引入
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useReducer, useEffect } from "react";
 import sublinks from "./Page/13/data";
+import cartItems from "./Page/14/data";
 
 const AppContext = React.createContext();
 
@@ -14,6 +15,8 @@ const AppProvider = ({ children }) => {
 
   const [isSidebarOpen_13, setSidebarOpen_13] = useState(false);
   const [isSubmenuOpen_13, setSubmenuOpen_13] = useState(false);
+
+  const [cart, setCart] = useState(cartItems);
 
   const openSidebar = () => {
     setSidebarOpen(true);
@@ -61,6 +64,7 @@ const AppProvider = ({ children }) => {
         closeSubmenu_13,
         location,
         page,
+        cart,
       }}
     >
       {children}

@@ -77,4 +77,10 @@ export default [
     img: "https://s2.loli.net/2024/09/11/pfRkQ64nLNvcYh1.png",
     href: "/13",
   },
+  {
+    id: 14,
+    title: "14 shopping cart",
+    img: "https://componentland.com/screenshots/cart-1.jpeg",
+    href: "/14",
+  },
 ];

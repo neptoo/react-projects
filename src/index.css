@@ -6,6 +6,9 @@ Variables
 
 :root {
   /* dark shades of primary color*/
+  --clr-primary: #2680c0;
+  --clr-primary-dark: hsl(205, 100%, 21%);
+  --clr-primary-light: hsl(205, 84%, 74%);
   --clr-primary-1: hsl(205, 86%, 17%);
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
@@ -49,6 +52,7 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   --fixed-width-2: 620px;
   --fixed-width-3: 920px;
+  --fixed-width-4: 50rem;
   --transition: all 0.3s linear;
   --max-width: 1170px;
 }
