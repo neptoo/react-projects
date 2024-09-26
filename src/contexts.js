@@ -3,6 +3,7 @@
 import React, { useState, useContext, useReducer, useEffect } from "react";
 import sublinks from "./Page/13/data";
 import cartItems from "./Page/14/data";
+import reducer from "./Page/14/reducer";
 
 const AppContext = React.createContext();
 
@@ -16,7 +17,30 @@ const AppProvider = ({ children }) => {
   const [isSidebarOpen_13, setSidebarOpen_13] = useState(false);
   const [isSubmenuOpen_13, setSubmenuOpen_13] = useState(false);
 
-  const [cart, setCart] = useState(cartItems);
+  // 14
+  const initialState = {
+    loading: false,
+    cart: cartItems,
+    total: 0,
+    amount: 0,
+  };
+  // const [cart, setCart] = useState(cartItems);
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  // 清空
+  const clearCart = () => {
+    dispatch({ type: "CLEAR_CART" });
+  };
+  // 移除单个商品
+  const remove = (id) => {
+    dispatch({ type: "REMOVE", cargo: id });
+  };
+  const increase = (id) => {
+    dispatch({ type: "INCREASE", cargo: id });
+  };
+  const decrease = (id) => {
+    dispatch({ type: "DECREASE", cargo: id });
+  };
 
   const openSidebar = () => {
     setSidebarOpen(true);
@@ -64,7 +88,11 @@ const AppProvider = ({ children }) => {
         closeSubmenu_13,
         location,
         page,
-        cart,
+        ...state,
+        clearCart,
+        remove,
+        increase,
+        decrease,
       }}
     >
       {children}

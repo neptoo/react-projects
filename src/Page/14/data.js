@@ -3,7 +3,7 @@ export default [
     id: 1,
     title: "Samsung Galaxy",
     price: 599.99,
-    img: "https://media.extra.com/s/aurora/100317104_800/Samsung-Galaxy-S22%2C-5G%2C-256GB%2C-Bora-Purple",
+    img: "https://images.samsung.com/is/image/samsung/assets/ae/galaxy-a52/pcd/a-category/img_bnn_galaxy_device.png",
     amount: 1,
   },
   {
