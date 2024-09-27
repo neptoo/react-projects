@@ -7,6 +7,8 @@ import reducer from "./Page/14/reducer";
 
 const AppContext = React.createContext();
 
+const url = "http://localhost:3000/carts.json";
+
 const AppProvider = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isModalOpen, setModalOpen] = useState(false);
@@ -41,6 +43,23 @@ const AppProvider = ({ children }) => {
   const decrease = (id) => {
     dispatch({ type: "DECREASE", cargo: id });
   };
+
+  // 每次操作购物车时 执行一些代码
+  useEffect(() => {
+    // console.log("change");
+    dispatch({ type: "GET_TOTAL" });
+  }, [state.cart]);
+
+  // 如何fetchData
+  const fetchData = async () => {
+    dispatch({ type: "LOADING" });
+    const response = await fetch(url);
+    const cart = await response.json();
+    dispatch({ type: "DISPLAY_ITEMS", cargo: cart });
+  };
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   const openSidebar = () => {
     setSidebarOpen(true);

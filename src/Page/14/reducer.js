@@ -1,3 +1,5 @@
+import { act, useEffect } from "react";
+
 const reducer = (state, action) => {
   // 清空购物车
   if (action.type === "CLEAR_CART") {
@@ -30,6 +32,32 @@ const reducer = (state, action) => {
       })
       .filter((cartItem) => cartItem.amount !== 0);
     return { ...state, cart: tempCart };
+  }
+
+  if (action.type === "GET_TOTAL") {
+    let { total, amount } = state.cart.reduce(
+      (cartTotal, cartItem) => {
+        const { price, amount } = cartItem;
+        cartTotal.amount += amount;
+        const itemTotal = price * amount;
+        cartTotal.total += itemTotal;
+        return cartTotal;
+      },
+      {
+        amount: 0,
+        total: 0,
+      }
+    );
+    // 单独处理总价
+    total = parseFloat(total.toFixed(2));
+    return { ...state, total, amount };
+  }
+
+  if (action.type === "LOADING") {
+    return { ...state, loading: true };
+  }
+  if (action.type === "DISPLAY_ITEMS") {
+    return { ...state, cart: action.cargo, loading: false };
   }
 
   return state;

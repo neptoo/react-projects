@@ -1,0 +1,30 @@
+[
+  {
+    "id": "d82bc0b3c2fe",
+    "title": "OnePlus 11",
+    "price": 389,
+    "img": "https://techcart.com.au/wp-content/uploads/2023/02/71526-OnePlus-11-Global-CPH2449-256GB16GB-Eternal-Green.png",
+    "amount": 1
+  },
+  {
+    "id": "eaf7670056aa",
+    "title": "Sony Xperia 1",
+    "price": 787,
+    "img": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/2023/09/pbi-sony-xperia-5-v.png",
+    "amount": 1
+  },
+  {
+    "id": "b814050f9406",
+    "title": "Google Pixel 7",
+    "price": 596,
+    "img": "https://phonesdata.com/files/models/Google-Pixel-2-587.png",
+    "amount": 1
+  },
+  {
+    "id": "424762d81e99",
+    "title": "Samsung Galaxy S23",
+    "price": 277,
+    "img": "https://images.samsung.com/is/image/samsung/assets/ae/galaxy-a52/pcd/a-category/img_bnn_galaxy_device.png",
+    "amount": 1
+  }
+]
