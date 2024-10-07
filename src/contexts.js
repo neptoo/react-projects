@@ -57,6 +57,10 @@ const AppProvider = ({ children }) => {
     const cart = await response.json();
     dispatch({ type: "DISPLAY_ITEMS", cargo: cart });
   };
+  // reassemble function
+  const toggleAmount = (id, type) => {
+    dispatch({ type: "TOGGLE_AMOUNT", cargo: { id, type } });
+  };
   useEffect(() => {
     fetchData();
   }, []);
@@ -112,6 +116,7 @@ const AppProvider = ({ children }) => {
         remove,
         increase,
         decrease,
+        toggleAmount,
       }}
     >
       {children}
