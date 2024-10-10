@@ -2,7 +2,7 @@
 
 ## Component
 
-1.Birthday Reminder 今天有多少人生日
+1.Birthday Reminder  移动端联系人列表
 
 [灵感来源](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042)
 
@@ -23,6 +23,18 @@
 8.Lorem Lpsum 占位符文本生成器
 
 9.Color Generator 输入颜色生成同色系颜色
+
+10.Goccery Organizer 本地缓存数据的增加/编辑/删除/清空
+
+11.Navbar 响应式导航栏
+
+12.Sidebar Modal 侧边栏和弹窗
+
+13.Stripe Submenu 带下拉菜单的响应式导航栏
+
+14.Shopping Cart 购物车
+
+
 
 - [x] bugfix: 修复了 api 不可用的报错
 
