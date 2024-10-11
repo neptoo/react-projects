@@ -83,10 +83,4 @@ export default [
     img: "https://s2.loli.net/2024/10/07/dT9W2v8okUKyxES.png",
     href: "/14",
   },
-  {
-    id: 15,
-    title: "15 drinks",
-    img: "https://s2.loli.net/2024/10/07/dT9W2v8okUKyxES.png",
-    href: "/15",
-  },
 ];
