@@ -1,5 +1,9 @@
 # Code 15 React Projects
 
+更细节的需求实现，请查看：
+
+- [ ] [[Notes]]   #WIP
+
 ## Component
 
 1.Birthday Reminder  移动端联系人列表
@@ -43,6 +47,8 @@ Fix CORS permissions to allow the projects to work from new domain
 
 > Access to fetch at 'https://course-api.com/react-tours-project' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 
+
+
 ## Project Tree
 
 ```bash
@@ -50,6 +56,8 @@ app.module.css #修改主project的样式
 data.js #修改路由路径、封面图和标题
 index.js #导入组件，配置路由
 ```
+
+
 
 ## Links
 
