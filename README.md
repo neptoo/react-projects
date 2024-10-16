@@ -2,7 +2,7 @@
 
 更细节的需求实现，请查看：
 
-- [ ] [[Notes]]   #WIP
+- [ ] [Notes](Notes.md)  #WIP
 
 ## Component
 
