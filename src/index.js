@@ -22,7 +22,6 @@ import NavBar from "./Page/NavBar";
 import SidebarModal from "./Page/SidebarModal";
 import StripeSubmenu from "./Page/StripeSubmenu";
 import ShoppingCart from "./Page/ShoppingCart";
-import Drinks from "./Page/Drinks";
 
 const router = createBrowserRouter([
   {
@@ -84,10 +83,6 @@ const router = createBrowserRouter([
   {
     path: "14",
     element: <ShoppingCart />,
-  },
-  {
-    path: "15",
-    element: <Drinks />,
   },
 ]);
 

@@ -1,10 +1,15 @@
 # Code 15 React Projects
 
-更细节的需求实现，请查看：
+## Setup 开发运行
 
-- [ ] [Notes](Notes.md)  #WIP
+```bash
+git clone https://github.com/neptoo/react-projects.git
+cd react-projects
+npm install
+npm start
+```
 
-## Component
+## Component 组件简介
 
 1.Birthday Reminder  移动端联系人列表
 
@@ -38,8 +43,6 @@
 
 14.Shopping Cart 购物车
 
-
-
 - [x] bugfix: 修复了 api 不可用的报错
 
 
@@ -49,7 +52,7 @@ Fix CORS permissions to allow the projects to work from new domain
 
 
 
-## Project Tree
+## Project Tree 目录结构
 
 ```bash
 app.module.css #修改主project的样式
@@ -62,3 +65,9 @@ index.js #导入组件，配置路由
 ## Links
 
 https://github.com/john-smilga/react-projects
+
+
+
+更细节的需求实现，请查看：
+
+- [ ] [Notes](Notes.md)  #WIP
